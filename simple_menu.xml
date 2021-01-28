@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu"
+          android:icon="@drawable/ic_menu"
+          android:title="Menu"
+          app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/tea"
+        android:title="Tea Leaf"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/fruitJam"
+        android:title="Fruit Jam"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item android:id="@+id/mangoJam"
+                android:title="Mango Jam" />
+
+            <item android:id="@+id/strawberryJam"
+                android:title="Strawberry Jam" />
+
+
+        </menu>
+
+
+    </item>
+
+
+</menu>
